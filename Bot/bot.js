@@ -1,5 +1,5 @@
 const { Telegraf } = require("telegraf");
-const TOKEN = "7486196695:AAFtKgfen5A79OFMm2X40XDArpIbWgoxWIU"; 
+const TOKEN = "7293339745:AAHjMLIbfqKJlox0Gq6aJ5X4yime6JclyaU"; 
 const bot = new Telegraf(TOKEN);
 
 const web_link = "https://sevimli-lavash.netlify.app/";
