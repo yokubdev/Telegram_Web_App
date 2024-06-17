@@ -5,7 +5,7 @@ const bot = new Telegraf(TOKEN);
 const web_link = "https://sevimli-lavash.netlify.app/";
 
 bot.start((ctx) =>
-  ctx.reply("Welcome :)))))", {
+  ctx.reply("Salom , Sevimli lavash buyurtma boti )))", {
     reply_markup: {
       keyboard: [[{ text: "web app", web_app: { url: web_link } }]],
     },
