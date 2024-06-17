@@ -5,9 +5,9 @@ const bot = new Telegraf(TOKEN);
 const web_link = "https://sevimli-lavash.netlify.app/";
 
 bot.start((ctx) =>
-  ctx.reply("Salom , Sevimli lavash buyurtma boti )))", {
+  ctx.reply("Salom , Sevimli lavash buyurtma boti", {
     reply_markup: {
-      keyboard: [[{ text: "web app", web_app: { url: web_link } }]],
+      keyboard: [[{ text: "Order", web_app: { url: web_link } }]],
     },
   })
 );
